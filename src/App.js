@@ -1,5 +1,6 @@
 import Signup from './pages/Signup'
 import Navbar from './components/Navbar';
+import Signin from './pages/Signin'
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Signup/>
+      <Signin/>
      
     </div>
   );
